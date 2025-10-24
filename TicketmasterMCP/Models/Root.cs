@@ -12,3 +12,9 @@ public class Root
     [JsonPropertyName("_embedded")]
     public Embedded Embedded { get; set; }
 }
+
+[JsonSerializable(typeof(List<Root>))]
+internal sealed partial class RootContext : JsonSerializerContext
+{
+
+}
