@@ -1,77 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\",
+  "WorkspaceRootPath": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\self.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\self.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\links.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\links.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\ada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\ada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\upcomingevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\upcomingevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\generalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\generalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\boxofficeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\boxofficeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\dma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\dma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\embedded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\embedded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\users\\matshengelien\\onedrive - evidi\\documents\\github\\ticketmastermcp\\ticketmastermcp\\ticketmastermcp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\services\\ticketmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:services\\ticketmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\mcptools\\ticketmastertools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:mcptools\\ticketmastertools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\services\\iticketmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:services\\iticketmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\self.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\self.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\links.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\links.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\ada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\ada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\upcomingevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\upcomingevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\generalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\generalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\boxofficeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\boxofficeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\dma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\dma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\embedded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\embedded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|c:\\evidi\\work\\rema\\testing\\mcp\\ticketmaster\\ticketmastermcp\\ticketmastermcp\\ticketmastermcp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0E20A92A-F35C-9D16-741B-C0A4666F8A24}|TicketmasterMCP.csproj|solutionrelative:ticketmastermcp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -82,240 +98,294 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Self.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Self.cs",
-              "RelativeDocumentMoniker": "Models\\Self.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Self.cs",
-              "RelativeToolTip": "Models\\Self.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:06:51.412Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T10:38:07.867Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Links.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Links.cs",
-              "RelativeDocumentMoniker": "Models\\Links.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Links.cs",
-              "RelativeToolTip": "Models\\Links.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Title": "TicketMasterService.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Services\\TicketMasterService.cs",
+              "RelativeDocumentMoniker": "Services\\TicketMasterService.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Services\\TicketMasterService.cs",
+              "RelativeToolTip": "Services\\TicketMasterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:06:34.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T10:27:36.479Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Ada.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Ada.cs",
-              "RelativeDocumentMoniker": "Models\\Ada.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Ada.cs",
-              "RelativeToolTip": "Models\\Ada.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Title": "TicketMasterTools.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\MCPTools\\TicketMasterTools.cs",
+              "RelativeDocumentMoniker": "MCPTools\\TicketMasterTools.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\MCPTools\\TicketMasterTools.cs",
+              "RelativeToolTip": "MCPTools\\TicketMasterTools.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAADwvy4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:06:16.53Z",
+              "WhenOpened": "2025-10-24T10:24:51.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dma.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Dma.cs",
+              "RelativeDocumentMoniker": "Models\\Dma.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Dma.cs",
+              "RelativeToolTip": "Models\\Dma.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:04:59.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Market.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Market.cs",
+              "RelativeDocumentMoniker": "Models\\Market.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Market.cs",
+              "RelativeToolTip": "Models\\Market.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:04:41.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Models\\Location.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Location.cs",
+              "RelativeToolTip": "Models\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:04:24.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Models\\Address.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Address.cs",
+              "RelativeToolTip": "Models\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:04:06.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:53:51.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UpcomingEvents.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\UpcomingEvents.cs",
-              "RelativeDocumentMoniker": "Models\\UpcomingEvents.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\UpcomingEvents.cs",
-              "RelativeToolTip": "Models\\UpcomingEvents.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Title": "ITicketMasterService.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Services\\ITicketMasterService.cs",
+              "RelativeDocumentMoniker": "Services\\ITicketMasterService.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Services\\ITicketMasterService.cs",
+              "RelativeToolTip": "Services\\ITicketMasterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:05:58.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GeneralInfo.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\GeneralInfo.cs",
-              "RelativeDocumentMoniker": "Models\\GeneralInfo.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\GeneralInfo.cs",
-              "RelativeToolTip": "Models\\GeneralInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:05:36.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BoxOfficeInfo.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\BoxOfficeInfo.cs",
-              "RelativeDocumentMoniker": "Models\\BoxOfficeInfo.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\BoxOfficeInfo.cs",
-              "RelativeToolTip": "Models\\BoxOfficeInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:05:17.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dma.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Dma.cs",
-              "RelativeDocumentMoniker": "Models\\Dma.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Dma.cs",
-              "RelativeToolTip": "Models\\Dma.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:04:59.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Market.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Market.cs",
-              "RelativeDocumentMoniker": "Models\\Market.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Market.cs",
-              "RelativeToolTip": "Models\\Market.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:04:41.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "Models\\Location.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Location.cs",
-              "RelativeToolTip": "Models\\Location.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:04:24.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Address.cs",
-              "RelativeDocumentMoniker": "Models\\Address.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Address.cs",
-              "RelativeToolTip": "Models\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:04:06.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T10:29:20.742Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Country.cs",
-              "RelativeDocumentMoniker": "Models\\Country.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Country.cs",
-              "RelativeToolTip": "Models\\Country.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Title": "BoxOfficeInfo.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\BoxOfficeInfo.cs",
+              "RelativeDocumentMoniker": "Models\\BoxOfficeInfo.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\BoxOfficeInfo.cs",
+              "RelativeToolTip": "Models\\BoxOfficeInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:03:46.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\City.cs",
-              "RelativeDocumentMoniker": "Models\\City.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\City.cs",
-              "RelativeToolTip": "Models\\City.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:03:17.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Image.cs",
-              "RelativeDocumentMoniker": "Models\\Image.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Image.cs",
-              "RelativeToolTip": "Models\\Image.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA7wBkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:03:00.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Embedded.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Embedded.cs",
-              "RelativeDocumentMoniker": "Models\\Embedded.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Embedded.cs",
-              "RelativeToolTip": "Models\\Embedded.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:02:29.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Root.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Root.cs",
-              "RelativeDocumentMoniker": "Models\\Root.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Root.cs",
-              "RelativeToolTip": "Models\\Root.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:02:09.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Venue.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Venue.cs",
-              "RelativeDocumentMoniker": "Models\\Venue.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Models\\Venue.cs",
-              "RelativeToolTip": "Models\\Venue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T09:01:32.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TicketmasterMCP.csproj",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\TicketmasterMCP.csproj",
-              "RelativeDocumentMoniker": "TicketmasterMCP.csproj",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\TicketmasterMCP.csproj",
-              "RelativeToolTip": "TicketmasterMCP.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-24T08:55:16.926Z"
+              "WhenOpened": "2025-10-24T09:05:17.015Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\Country.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Country.cs",
+              "RelativeToolTip": "Models\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T08:53:51.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T09:03:46.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\City.cs",
+              "RelativeDocumentMoniker": "Models\\City.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\City.cs",
+              "RelativeToolTip": "Models\\City.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:03:17.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Models\\Image.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Image.cs",
+              "RelativeToolTip": "Models\\Image.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA7wBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:03:00.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Embedded.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Embedded.cs",
+              "RelativeDocumentMoniker": "Models\\Embedded.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Embedded.cs",
+              "RelativeToolTip": "Models\\Embedded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:02:29.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Venue.cs",
+              "RelativeDocumentMoniker": "Models\\Venue.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Venue.cs",
+              "RelativeToolTip": "Models\\Venue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:01:32.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GeneralInfo.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\GeneralInfo.cs",
+              "RelativeDocumentMoniker": "Models\\GeneralInfo.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\GeneralInfo.cs",
+              "RelativeToolTip": "Models\\GeneralInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:05:36.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpcomingEvents.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\UpcomingEvents.cs",
+              "RelativeDocumentMoniker": "Models\\UpcomingEvents.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\UpcomingEvents.cs",
+              "RelativeToolTip": "Models\\UpcomingEvents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:05:58.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ada.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Ada.cs",
+              "RelativeDocumentMoniker": "Models\\Ada.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Ada.cs",
+              "RelativeToolTip": "Models\\Ada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:06:16.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Links.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Links.cs",
+              "RelativeDocumentMoniker": "Models\\Links.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Links.cs",
+              "RelativeToolTip": "Models\\Links.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:06:34.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Self.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Self.cs",
+              "RelativeDocumentMoniker": "Models\\Self.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Self.cs",
+              "RelativeToolTip": "Models\\Self.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:06:51.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Root.cs",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Root.cs",
+              "RelativeDocumentMoniker": "Models\\Root.cs",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\Models\\Root.cs",
+              "RelativeToolTip": "Models\\Root.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:02:09.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TicketmasterMCP.csproj",
+              "DocumentMoniker": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\TicketmasterMCP.csproj",
+              "RelativeDocumentMoniker": "TicketmasterMCP.csproj",
+              "ToolTip": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\TicketmasterMCP.csproj",
+              "RelativeToolTip": "TicketmasterMCP.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T08:55:16.926Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
