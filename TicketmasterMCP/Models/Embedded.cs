@@ -11,5 +11,8 @@ public class Embedded
 {
     [JsonPropertyName("venues")]
     public List<Venue> Venues { get; set; }
+
+    [JsonPropertyName("events")]
+    public List<Event> Events { get; set; }
 }
 

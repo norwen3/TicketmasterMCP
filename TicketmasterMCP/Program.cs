@@ -35,7 +35,130 @@ var host = builder.Build();
 // Removed all references to limited_venues.json. The app now always fetches venues from the Ticketmaster API.
 
 
-// Interactive menu
+// Get next 5 upcoming events for a user-specified city ordered by date
+using (var scope = host.Services.CreateScope())
+{
+    var svc = scope.ServiceProvider.GetRequiredService<ITicketMasterService>();
+    
+    Console.Write("Enter city name to search for events: ");
+    var cityName = Console.ReadLine();
+    
+    if (string.IsNullOrWhiteSpace(cityName))
+    {
+        Console.WriteLine("No city name provided. Exiting.");
+        return;
+    }
+    
+    Console.WriteLine($"Searching for the next 5 upcoming events in {cityName} ordered by date...\n");
+    
+    try
+    {
+        // Search for events in the specified city
+        Console.WriteLine($"Searching for events in {cityName}...");
+        var result = await svc.SearchEventsAsync("", cityName, "", "NO", null, null);
+        
+        var events = result?.Embedded?.Events;
+        
+        if (events != null && events.Count > 0)
+        {
+            // Filter events that are in the specified city
+            var cityEvents = events.Where(e => 
+                e.Embedded?.Venues?.Any(v => 
+                    v.City?.Name?.Contains(cityName, StringComparison.OrdinalIgnoreCase) == true
+                ) == true
+            ).ToList();
+            
+            if (cityEvents.Count == 0)
+            {
+                Console.WriteLine($"No events found specifically in {cityName}. Showing all events from search:");
+                cityEvents = events.ToList();
+            }
+            
+            // Sort events by date (upcoming first) and take only next 5
+            var now = DateTime.Now;
+            var upcomingEvents = cityEvents
+                .Where(e => DateTime.TryParse(e.Dates?.Start?.DateTime, out var eventDate) && eventDate > now)
+                .OrderBy(e => DateTime.Parse(e.Dates?.Start?.DateTime ?? DateTime.MaxValue.ToString()))
+                .Take(5)
+                .ToList();
+            
+            Console.WriteLine($"Next {upcomingEvents.Count} upcoming events in {cityName} (ordered by date):");
+            Console.WriteLine(new string('=', 80));
+            
+            foreach (var eventItem in upcomingEvents)
+            {
+                Console.WriteLine($"EVENT: {eventItem.Name}");
+                Console.WriteLine($"ID: {eventItem.Id}");
+                
+                // Event date and time
+                if (eventItem.Dates?.Start != null)
+                {
+                    if (!string.IsNullOrEmpty(eventItem.Dates.Start.LocalDate))
+                        Console.WriteLine($"Date: {eventItem.Dates.Start.LocalDate}");
+                    if (!string.IsNullOrEmpty(eventItem.Dates.Start.LocalTime))
+                        Console.WriteLine($"Time: {eventItem.Dates.Start.LocalTime}");
+                }
+                
+                // Venue information
+                var venue = eventItem.Embedded?.Venues?.FirstOrDefault();
+                if (venue != null)
+                {
+                    Console.WriteLine($"Venue: {venue.Name}");
+                    if (!string.IsNullOrEmpty(venue.Address?.Line1))
+                        Console.WriteLine($"Address: {venue.Address.Line1}");
+                    if (!string.IsNullOrEmpty(venue.City?.Name))
+                        Console.WriteLine($"City: {venue.City.Name}");
+                }
+                
+                // Event classification (genre, type, etc.)
+                if (eventItem.Classifications != null && eventItem.Classifications.Count > 0)
+                {
+                    var classification = eventItem.Classifications.First();
+                    if (classification.Genre?.Name != null)
+                        Console.WriteLine($"Genre: {classification.Genre.Name}");
+                    if (classification.Segment?.Name != null)
+                        Console.WriteLine($"Category: {classification.Segment.Name}");
+                }
+                
+                // Price range
+                if (eventItem.PriceRanges != null && eventItem.PriceRanges.Count > 0)
+                {
+                    var priceRange = eventItem.PriceRanges.First();
+                    Console.WriteLine($"Price Range: {priceRange.Min} - {priceRange.Max} {priceRange.Currency}");
+                }
+                
+                // Ticketmaster URL
+                if (!string.IsNullOrEmpty(eventItem.Url))
+                    Console.WriteLine($"Ticketmaster URL: {eventItem.Url}");
+                
+                Console.WriteLine(new string('-', 80));
+            }
+        }
+        else
+        {
+            Console.WriteLine($"No events found in {cityName}.");
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error searching for events in {cityName}: {ex.Message}");
+        Console.WriteLine($"Stack trace: {ex.StackTrace}");
+    }
+    
+    Console.WriteLine("\nPress any key to exit...");
+    try
+    {
+        Console.ReadKey();
+    }
+    catch (InvalidOperationException)
+    {
+        // Handle the case when console input is redirected
+        Console.Read();
+    }
+}
+
+/*
+// Original Interactive menu - commented out for Oslo search
 using (var scope = host.Services.CreateScope())
 {
     var svc = scope.ServiceProvider.GetRequiredService<ITicketMasterService>();
@@ -129,3 +252,4 @@ using (var scope = host.Services.CreateScope())
         }
     }
 }
+*/
