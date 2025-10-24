@@ -9,6 +9,10 @@
                 "--project",
                 "C:\\Users\\MatsHEngelien\\TicketmasterMCP\\TicketmasterMCP.csproj"
             ]
-        }
+        },
+        "github": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/"
     }
+}
 }
