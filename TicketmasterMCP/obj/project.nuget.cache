@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zRJdYTimC7Ars8fSucZhATAhAUy6KC1zjKOcJZEFbksw1BsaPczUW/rOvFxIw6Dt8XqVzCSXVAIYsb1GGkxSuw==",
+  "dgSpecHash": "YYXRXJTMaJ/XhPtEOqaOSOTKmIFy5vDlcaOxcgn/lboDPm9m1i5tV7py6Hukame8V7MfaqJTCuIyv0NkaPfVVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MatsHEngelien\\TicketmasterMCP\\TicketmasterMCP.csproj",
+  "projectFilePath": "C:\\Users\\MatsHEngelien\\OneDrive - Evidi\\Documents\\GitHub\\TicketmasterMCP\\TicketmasterMCP\\TicketmasterMCP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MatsHEngelien\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.6.0\\microsoft.extensions.ai.abstractions.9.6.0.nupkg.sha512",
     "C:\\Users\\MatsHEngelien\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.10\\microsoft.extensions.configuration.9.0.10.nupkg.sha512",
