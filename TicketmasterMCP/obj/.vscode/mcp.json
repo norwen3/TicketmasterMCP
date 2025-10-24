@@ -1,0 +1,14 @@
+{
+    "inputs": [],
+    "servers": {
+        "TicketmasterMCP": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "C:\\Users\\MatsHEngelien\\TicketmasterMCP\\TicketmasterMCP.csproj"
+            ]
+        }
+    }
+}
