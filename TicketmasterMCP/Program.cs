@@ -35,54 +35,48 @@ var host = builder.Build();
 // Removed all references to limited_venues.json. The app now always fetches venues from the Ticketmaster API.
 
 
-// Get next 5 upcoming events for a user-specified city ordered by date
+// Get the next 5 events in Boston, USA
 using (var scope = host.Services.CreateScope())
 {
     var svc = scope.ServiceProvider.GetRequiredService<ITicketMasterService>();
     
-    Console.Write("Enter city name to search for events: ");
-    var cityName = Console.ReadLine();
+    var cityName = "Oslo";
+    var countryCode = "NO";
     
-    if (string.IsNullOrWhiteSpace(cityName))
-    {
-        Console.WriteLine("No city name provided. Exiting.");
-        return;
-    }
+    // Set date range from today onwards (next 12 months)
+    var startDate = DateTime.Now.Date;
+    var endDate = startDate.AddMonths(12);
     
-    Console.WriteLine($"Searching for the next 5 upcoming events in {cityName} ordered by date...\n");
+    var searchDescription = $"{cityName}, Norway";
+    
+    Console.WriteLine($"Searching for the next 5 events in {searchDescription}...\n");
     
     try
     {
-        // Search for events in the specified city
-        Console.WriteLine($"Searching for events in {cityName}...");
-        var result = await svc.SearchEventsAsync("", cityName, "", "NO", null, null);
+        // Search for events in Oslo, Norway from today onwards
+        Console.WriteLine($"Searching for upcoming events in {searchDescription} from {startDate:yyyy-MM-dd}...");
+        var result = await svc.SearchEventsAsync("", cityName, "", countryCode, startDate, endDate);
         
         var events = result?.Embedded?.Events;
         
         if (events != null && events.Count > 0)
         {
-            // Filter events that are in the specified city
+            // Filter events by city first
             var cityEvents = events.Where(e => 
                 e.Embedded?.Venues?.Any(v => 
                     v.City?.Name?.Contains(cityName, StringComparison.OrdinalIgnoreCase) == true
                 ) == true
             ).ToList();
             
-            if (cityEvents.Count == 0)
-            {
-                Console.WriteLine($"No events found specifically in {cityName}. Showing all events from search:");
-                cityEvents = events.ToList();
-            }
-            
-            // Sort events by date (upcoming first) and take only next 5
-            var now = DateTime.Now;
+            // Sort events by date and take only the next 5 events
             var upcomingEvents = cityEvents
-                .Where(e => DateTime.TryParse(e.Dates?.Start?.DateTime, out var eventDate) && eventDate > now)
+                .Where(e => DateTime.TryParse(e.Dates?.Start?.DateTime, out var eventDate) && 
+                           eventDate >= startDate)
                 .OrderBy(e => DateTime.Parse(e.Dates?.Start?.DateTime ?? DateTime.MaxValue.ToString()))
                 .Take(5)
                 .ToList();
             
-            Console.WriteLine($"Next {upcomingEvents.Count} upcoming events in {cityName} (ordered by date):");
+            Console.WriteLine($"Next {upcomingEvents.Count} events in {searchDescription} (ordered by date):");
             Console.WriteLine(new string('=', 80));
             
             foreach (var eventItem in upcomingEvents)
@@ -136,12 +130,12 @@ using (var scope = host.Services.CreateScope())
         }
         else
         {
-            Console.WriteLine($"No events found in {cityName}.");
+            Console.WriteLine($"No events found at {searchDescription}.");
         }
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"Error searching for events in {cityName}: {ex.Message}");
+        Console.WriteLine($"Error searching for events at {searchDescription}: {ex.Message}");
         Console.WriteLine($"Stack trace: {ex.StackTrace}");
     }
     

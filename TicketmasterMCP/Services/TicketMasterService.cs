@@ -31,7 +31,7 @@ public class TicketMasterService : ITicketMasterService
             };
 
             if (!string.IsNullOrEmpty(city))
-                queryParams.Add($"city={Uri.EscapeDataString(city)}");
+                queryParams.Add($"keyword={Uri.EscapeDataString(city)}");
             if (!string.IsNullOrEmpty(state))
                 queryParams.Add($"stateCode={Uri.EscapeDataString(state)}");
             if (!string.IsNullOrEmpty(country))
