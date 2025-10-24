@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1gKYc4IDRrI=",
+  "dgSpecHash": "NDSSqXzOUI4=",
   "success": true,
   "projectFilePath": "C:\\Evidi\\Work\\Rema\\Testing\\MCP\\TicketMaster\\TicketmasterMCP\\TicketmasterMCP\\TicketmasterMCP.csproj",
   "expectedPackageFiles": [
@@ -41,8 +41,9 @@
     "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\system.net.serversentevents\\10.0.0-preview.4.25258.110\\system.net.serversentevents.10.0.0-preview.4.25258.110.nupkg.sha512",
     "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\system.text.encodings.web\\9.0.10\\system.text.encodings.web.9.0.10.nupkg.sha512",
     "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\system.text.json\\9.0.10\\system.text.json.9.0.10.nupkg.sha512",
-    "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.306\\microsoft.net.sdk.compilers.toolset.9.0.306.nupkg.sha512",
     "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.21\\microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
     "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.21\\microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
     "C:\\Users\\NhutNguyenHoang\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.21\\microsoft.netcore.app.host.win-x64.8.0.21.nupkg.sha512"
   ],

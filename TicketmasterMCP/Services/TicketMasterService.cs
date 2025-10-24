@@ -31,14 +31,14 @@ public class TicketMasterService : ITicketMasterService
             };
 
             if (!string.IsNullOrEmpty(city))
-                queryParams.Add($"city={Uri.EscapeDataString(city)}");
+                queryParams.Add($"keyword={Uri.EscapeDataString(city)}");
             if (!string.IsNullOrEmpty(state))
                 queryParams.Add($"stateCode={Uri.EscapeDataString(state)}");
             if (!string.IsNullOrEmpty(country))
                 queryParams.Add($"countryCode={Uri.EscapeDataString(country)}");
 
             var queryString = string.Join("&", queryParams);
-            var response = await _httpClient.GetAsync($"{_httpClient.BaseAddress}?{queryString}");
+            var response = await _httpClient.GetAsync($"venues?{queryString}");
             
             response.EnsureSuccessStatusCode();
             var json = await response.Content.ReadAsStringAsync();
@@ -68,7 +68,7 @@ public class TicketMasterService : ITicketMasterService
                 };
 
                 var queryString = string.Join("&", queryParams);
-                var response = await _httpClient.GetAsync($"venues.json?{queryString}");
+                var response = await _httpClient.GetAsync($"venues?{queryString}");
                 response.EnsureSuccessStatusCode();
                 var json = await response.Content.ReadAsStringAsync();
 
@@ -115,7 +115,7 @@ public class TicketMasterService : ITicketMasterService
     {
         try
         {
-            var response = await _httpClient.GetAsync($"venues/{venueId}.json?apikey={_apiKey}");
+            var response = await _httpClient.GetAsync($"venues/{venueId}?apikey={_apiKey}");
             response.EnsureSuccessStatusCode();
             var json = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<Root>(json) ?? new Root();
@@ -139,7 +139,7 @@ public class TicketMasterService : ITicketMasterService
             };
 
             var queryString = string.Join("&", queryParams);
-            var response = await _httpClient.GetAsync($"venues.json?{queryString}");
+            var response = await _httpClient.GetAsync($"venues?{queryString}");
             response.EnsureSuccessStatusCode();
             var json = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<Root>(json) ?? new Root();
@@ -173,7 +173,7 @@ public class TicketMasterService : ITicketMasterService
                 queryParams.Add($"endDateTime={endDateTime.Value:yyyy-MM-ddTHH:mm:ssZ}");
 
             var queryString = string.Join("&", queryParams);
-            var response = await _httpClient.GetAsync($"events.json?{queryString}");
+            var response = await _httpClient.GetAsync($"events?{queryString}");
             
             response.EnsureSuccessStatusCode();
             var json = await response.Content.ReadAsStringAsync();
@@ -190,7 +190,7 @@ public class TicketMasterService : ITicketMasterService
     {
         try
         {
-            var response = await _httpClient.GetAsync($"events/{eventId}.json?apikey={_apiKey}");
+            var response = await _httpClient.GetAsync($"events/{eventId}?apikey={_apiKey}");
             response.EnsureSuccessStatusCode();
             var json = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<Root>(json) ?? new Root();
